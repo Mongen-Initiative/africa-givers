@@ -1,0 +1,52 @@
+site_name: Africa Givers
+site_description: >-
+  Bringing hope throughout perseverence
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: africa_givers_logo
+  favicon: assets/images/favicon.png
+  features:
+     - navigation.instant
+     - content.tabs.link
+     - navigation.tabs
+     - navigation.tabs.sticky
+     - search.highlight
+     - search.share
+     - search.suggest
+  custom_dir: docs/overrides
+plugins:
+  - search
+  - blog
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+nav:
+    - 'index.md'
+    - What we do:
+      - 'home.md'
+    - How to Donate:
+      - 'donate.md'
+    - Blog:
+      - blog/index.md
+      - 2022:
+        - blog/posts/first_post.md
