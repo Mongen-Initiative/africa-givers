@@ -40,6 +40,10 @@ theme:
 plugins:
   - search
   - blog
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
