@@ -7,7 +7,7 @@ categories:
 
 # New Website!
 
-As part of our mission to generate more exposure of the work done by the foundation, we have created a new website
+As part of our mission to generate more exposure of the work done by the charity, we have created a new website
 
 <!-- more -->
 
